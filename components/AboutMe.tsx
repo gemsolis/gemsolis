@@ -24,7 +24,7 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="section-wrapper w-[100%] flex flex-col justify-center items-center pt-[60px]"
+      className="section-wrapper w-[100%] flex flex-col justify-center items-center"
     >
       <motion.div className="mt-5 w-[60%] p-8rounded-md max-md:w-[90%] flex gap-10 justify-center items-start max-xl:flex-col">
         <div className="w-full text-center" ref={elementRef}>

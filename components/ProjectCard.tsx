@@ -39,7 +39,7 @@ const ProjectCard = () => {
           <motion.div
             key={project.title}
             variants={cardVariants}
-            className="bg-white rounded-lg relative"
+            className="bg-white rounded-lg relative shadow-lg"
           >
             <div className="w-full rounded-2xl overflow-hidden">
               <Image

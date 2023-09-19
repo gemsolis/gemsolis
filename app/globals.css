@@ -18,13 +18,14 @@ html {
 body {
   overflow-x: hidden;
   background-color: #efefef;
-  /* background-color: #ff3cac;
+  background-color: #ff3cac;
+  background-attachment: fixed;
   background-image: linear-gradient(
     225deg,
-    #ff3cac 0%,
-    #784ba0 50%,
-    #2b86c5 100%
-  ); */
+    #e0e0e0 0%,
+    #efefef 50%,
+    #bdbdbd 100%
+  );
 
   color: #000;
 }
@@ -86,7 +87,7 @@ label {
 }
 
 .section-wrapper {
-  @apply w-full px-20 pt-[150px] pb-[150px] max-lg:px-10;
+  @apply bg-opacity-75 backdrop-filter backdrop-blur-lg w-full px-20 pt-[150px] pb-[150px] max-lg:px-10;
 }
 
 .bg-rounded {

@@ -27,7 +27,7 @@ const CaseStudyCard = () => {
   }, []);
 
   return (
-    <div className="mt-[200px] flex flex-col justify-center items-center">
+    <div className="mt-[200px] flex flex-col justify-center items-center shadow-lg">
       <Title title="Case Study" />
       <motion.div
         ref={elementRef}

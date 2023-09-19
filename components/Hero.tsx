@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <motion.main
       id="hero"
-      className="hero-container flex flex-col items-center text-center pt-[250px] px-3 relative text-white"
+      className="hero-container flex flex-col items-center text-center pt-[250px] px-3 relative text-white "
     >
       <motion.h1 className="hero-title flex flex-col mb-2 text-yellow-400 uppercase">
         <motion.span

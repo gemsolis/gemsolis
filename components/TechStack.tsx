@@ -27,7 +27,10 @@ const TechStack = () => {
     };
   }, []);
   return (
-    <div id="stack" className="section-wrapper px-16  bg-white rounded-[200px]">
+    <div
+      id="stack"
+      className="section-wrapper pt-5 pb-[300px] bg-white rounded-[200px]"
+    >
       <div className="flex flex-col items-center justify-center text-center">
         <Title title="Tech Stack" />
         <motion.div

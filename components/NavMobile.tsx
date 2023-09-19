@@ -40,7 +40,7 @@ const NavMobile = () => {
   }, []);
 
   return (
-    <div className="w-full fixed bottom-0 bg-yellow-500 sm:hidden z-40 text-gray-800">
+    <div className="w-full fixed bottom-0 bg-yellow-500 lg:hidden z-40 text-gray-800">
       <nav>
         <div className="flex justify-between">
           {navLinks.map((link) => (
