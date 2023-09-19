@@ -1,27 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+  background-color: #efefef;
+  /* background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  ); */
+
+  color: #000;
+}
+
+#hero > h1 > .hero-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h3,
+p,
+a,
+span,
+button,
+label {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.p-text {
+  @apply max-sm:text-[14px] max-md:text-[16px] max-lg:text-[18px] max-xl:text-[20px] xl:text-[24px];
+}
+
+.custom-btn {
+  @apply flex flex-row relative duration-500 justify-center text-base items-center py-2 px-5 outline-none;
+}
+
+.glass {
+  @apply bg-opacity-75 backdrop-filter backdrop-blur-lg;
+}
+
+.hero-container {
+  @apply bg-hero-bg bg-gray-900  bg-cover bg-fixed bg-no-repeat bg-rounded w-full h-screen;
+}
+
+.hero-title {
+  @apply text-[60px] max-sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[90px] 2xl:text-[100px];
+}
+
+.project-text {
+  @apply max-sm:text-[20px] md:text-[15px] lg:text-[20px];
+}
+
+.text-res {
+  @apply sm:text-[14px] md:text-[12px] lg:text-[14px];
+}
+
+.active {
+  @apply rounded-full px-10 py-2 bg-yellow-500 scale-[1.1];
+}
+
+.active-mobile {
+  @apply border-t-4 border-gray-800;
+}
+
+.section-wrapper {
+  @apply w-full px-20 pt-[150px] pb-[150px] max-lg:px-10;
+}
+
+.bg-rounded {
+  @apply rounded-b-[70%] max-sm:rounded-b-[20%];
+}
+
+.project-grid {
+  @apply grid gap-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4;
+}
+
+.label {
+  @apply uppercase text-sm flex flex-col gap-1;
+}
+
+.input {
+  @apply px-2 py-2 rounded-md mb-5 text-white bg-gray-700 border-b-2 border-yellow-600;
+}
+
+@keyframes aurora {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }

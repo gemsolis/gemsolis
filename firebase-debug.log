@@ -1,0 +1,96 @@
+[debug] [2023-09-19T14:48:26.438Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T14:48:26.441Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-09-19T14:48:26.441Z] CLI Version:   12.4.0
+[debug] [2023-09-19T14:48:26.442Z] Platform:      darwin
+[debug] [2023-09-19T14:48:26.442Z] Node Version:  v18.15.0
+[debug] [2023-09-19T14:48:26.444Z] Time:          Tue Sep 19 2023 22:48:26 GMT+0800 (Philippine Standard Time)
+[debug] [2023-09-19T14:48:26.444Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T14:48:26.551Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T14:48:26.551Z] > authorizing via signed-in user (wattygail19@gmail.com)
+[debug] [2023-09-19T14:48:26.552Z] [iam] checking project gemsolis-dev for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-19T14:48:26.555Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions [none]
+[debug] [2023-09-19T14:48:26.555Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions x-goog-quota-user=projects/gemsolis-dev
+[debug] [2023-09-19T14:48:26.556Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:48:27.887Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions 200
+[debug] [2023-09-19T14:48:27.888Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:48:27.890Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev [none]
+[debug] [2023-09-19T14:48:28.491Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev 200
+[debug] [2023-09-19T14:48:28.491Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev {"projectId":"gemsolis-dev","projectNumber":"694870507474","displayName":"gemsolisdev","name":"projects/gemsolis-dev","resources":{"hostingSite":"gemsolis-dev"},"state":"ACTIVE","etag":"1_7326750a-af5b-45f4-9543-52a0ac41a6ac"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-09-19T14:49:35.763Z] Error: ENOENT: no such file or directory, open '/Volumes/DRIVEGEM/Web Design/Web Develpoment-SelfStudy/React/NextJS/gemsolis_portfolio/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-09-19T14:51:14.580Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T14:51:14.583Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-09-19T14:51:14.583Z] CLI Version:   12.4.0
+[debug] [2023-09-19T14:51:14.584Z] Platform:      darwin
+[debug] [2023-09-19T14:51:14.584Z] Node Version:  v18.15.0
+[debug] [2023-09-19T14:51:14.585Z] Time:          Tue Sep 19 2023 22:51:14 GMT+0800 (Philippine Standard Time)
+[debug] [2023-09-19T14:51:14.586Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T14:51:14.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T14:51:14.856Z] > authorizing via signed-in user (wattygail19@gmail.com)
+[debug] [2023-09-19T14:51:14.856Z] [iam] checking project gemsolis-dev for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-19T14:51:14.859Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions [none]
+[debug] [2023-09-19T14:51:14.859Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions x-goog-quota-user=projects/gemsolis-dev
+[debug] [2023-09-19T14:51:14.860Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:51:16.643Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions 200
+[debug] [2023-09-19T14:51:16.643Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:51:16.645Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev [none]
+[debug] [2023-09-19T14:51:17.247Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev 200
+[debug] [2023-09-19T14:51:17.247Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev {"projectId":"gemsolis-dev","projectNumber":"694870507474","displayName":"gemsolisdev","name":"projects/gemsolis-dev","resources":{"hostingSite":"gemsolis-dev"},"state":"ACTIVE","etag":"1_7326750a-af5b-45f4-9543-52a0ac41a6ac"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-09-19T14:52:15.578Z] Error: ENOENT: no such file or directory, open '/Volumes/DRIVEGEM/Web Design/Web Develpoment-SelfStudy/React/NextJS/gemsolis_portfolio/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-09-19T14:55:39.600Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T14:55:39.603Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-09-19T14:55:39.604Z] CLI Version:   12.4.0
+[debug] [2023-09-19T14:55:39.604Z] Platform:      darwin
+[debug] [2023-09-19T14:55:39.604Z] Node Version:  v18.15.0
+[debug] [2023-09-19T14:55:39.606Z] Time:          Tue Sep 19 2023 22:55:39 GMT+0800 (Philippine Standard Time)
+[debug] [2023-09-19T14:55:39.606Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T14:55:39.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T14:55:39.743Z] > authorizing via signed-in user (wattygail19@gmail.com)
+[debug] [2023-09-19T14:55:39.743Z] [iam] checking project gemsolis-dev for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-19T14:55:39.746Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions [none]
+[debug] [2023-09-19T14:55:39.746Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions x-goog-quota-user=projects/gemsolis-dev
+[debug] [2023-09-19T14:55:39.747Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:55:41.047Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions 200
+[debug] [2023-09-19T14:55:41.047Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gemsolis-dev:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-19T14:55:41.049Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev [none]
+[debug] [2023-09-19T14:55:41.852Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev 200
+[debug] [2023-09-19T14:55:41.852Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gemsolis-dev {"projectId":"gemsolis-dev","projectNumber":"694870507474","displayName":"gemsolisdev","name":"projects/gemsolis-dev","resources":{"hostingSite":"gemsolis-dev"},"state":"ACTIVE","etag":"1_d35ea9aa-5144-485c-b4dd-b1eae4a300a5"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-09-19T14:56:46.562Z] Error: ENOENT: no such file or directory, open '/Volumes/DRIVEGEM/Web Design/Web Develpoment-SelfStudy/React/NextJS/gemsolis_portfolio/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.
