@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="section-wrapper w-full mt-[150px] bg-gray-800 text-white flex flex-col justify-center items-center rounded-[200px] "
+      className="section-wrapper w-full mt-[150px] pb-10 bg-gray-800 text-white flex flex-col justify-center items-center rounded-[200px] "
     >
       <div className="mb-16 text-3xl ">
         <Title title="Projects" />

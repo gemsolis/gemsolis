@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
-      className="w-full overflow-x-hidden px-5 py-5 flex justify-between items-center fixed bg-gradient-to-b from-gray-900 to-transparent opacity-95 text-white z-30 max-md:px-2"
+      className="w-full overflow-x-hidden px-5 py-5 flex justify-between items-center fixed bg-gradient-to-b from-gray-900 to-transparent opacity-95 text-white z-30 max-md:px-2 max-md:py-2"
     >
       <h1 className="px-3">
         <Link

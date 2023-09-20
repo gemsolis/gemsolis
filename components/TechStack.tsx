@@ -27,39 +27,38 @@ const TechStack = () => {
     };
   }, []);
   return (
-    <div
-      id="stack"
-      className="section-wrapper pt-5 pb-[300px] bg-white rounded-[200px]"
-    >
-      <div className="flex flex-col items-center justify-center text-center">
-        <Title title="Tech Stack" />
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate={isVisible ? "visible" : "hidden"}
-          ref={elementRef}
-          className="w-full grid grid-cols-6 gap-10 justify-center items-center mt-16 px-20 max-sm:px-1 max-sm:grid-cols-5"
-        >
-          {Object.entries(techIcons).map(([key, techIcon]) => (
-            <motion.div key={key}>
-              <motion.div
-                variants={cardVariants}
-                className="h-full flex flex-col gap-2 items-center justify-start hover:scale-[1.1] duration-300"
-              >
-                <Image
-                  src={techIcon.iconSrc}
-                  alt={techIcon.altText}
-                  width={50}
-                  height={50}
-                  className="object-container"
-                />
-                <p className="text-yellow-500 text-sm max-sm:text-xs">
-                  {techIcon.altText}
-                </p>
+    <div id="stack">
+      <div className="section-wrapper px-5 bg-white rounded-[200px]">
+        <div className="flex flex-col items-center justify-center text-center">
+          <Title title="Tech Stack" />
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isVisible ? "visible" : "hidden"}
+            ref={elementRef}
+            className="w-full grid grid-cols-6 gap-10 justify-center items-center mt-[100px] mb-[100px] px-20 max-sm:px-1 max-sm:grid-cols-4"
+          >
+            {Object.entries(techIcons).map(([key, techIcon]) => (
+              <motion.div key={key}>
+                <motion.div
+                  variants={cardVariants}
+                  className="h-full flex flex-col gap-2 items-center justify-start hover:scale-[1.1] duration-300"
+                >
+                  <Image
+                    src={techIcon.iconSrc}
+                    alt={techIcon.altText}
+                    width={50}
+                    height={50}
+                    className="object-container"
+                  />
+                  <p className="text-yellow-500 text-sm max-sm:text-xs">
+                    {techIcon.altText}
+                  </p>
+                </motion.div>
               </motion.div>
-            </motion.div>
-          ))}
-        </motion.div>
+            ))}
+          </motion.div>
+        </div>
       </div>
     </div>
   );

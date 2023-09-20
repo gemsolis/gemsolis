@@ -27,7 +27,7 @@ const CaseStudyCard = () => {
   }, []);
 
   return (
-    <div className="mt-[200px] flex flex-col justify-center items-center shadow-lg">
+    <div className="mt-[200px] mb-[200px] flex flex-col justify-center items-center">
       <Title title="Case Study" />
       <motion.div
         ref={elementRef}
@@ -37,15 +37,18 @@ const CaseStudyCard = () => {
           y: isVisible ? 0 : "100px",
         }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="mt-[100px] py-20 px-10 flex justify-center items-center gap-3 bg-hero-bg bg-no-repeat bg-cover bg-fixed rounded-2xl max-xl:w-[100%] max-sm:px-3 max-xl:flex-col "
+        className="mt-[100px] py-20 px-10 flex justify-center items-center gap-3 bg-hero-bg bg-no-repeat bg-cover bg-fixed rounded-2xl max-xl:w-[100%] max-sm:px-3 max-xl:flex-col shadow-lg"
       >
-        <Image
-          src="/assets/casestudy-photo2.png"
-          alt="Aurras App"
-          width={600}
-          height={600}
-          className="object-contain"
-        />
+        <div className="w-full px-5 flex justify-center">
+          <Image
+            src="/assets/casestudy-photo2.png"
+            alt="Aurras App"
+            width={600}
+            height={600}
+            className="object-contain"
+          />
+        </div>
+
         <div className="px-10 max-md:px-2 max-sm:px-2">
           <h2 className="text-2xl my-10 text-yellow-500">About</h2>
           <p className="mb-10 p-text">

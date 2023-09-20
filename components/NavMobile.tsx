@@ -18,7 +18,7 @@ const NavMobile = () => {
         if (section) {
           const offset = section.offsetTop;
           const height = section.offsetHeight;
-          const sectionScope = offset + height;
+          const sectionScope = offset + height - 100;
 
           if (scrollPosition >= offset && scrollPosition <= sectionScope) {
             setActiveLink(link.url);
@@ -40,14 +40,14 @@ const NavMobile = () => {
   }, []);
 
   return (
-    <div className="w-full fixed bottom-0 bg-yellow-500 lg:hidden z-40 text-gray-800">
+    <div className="w-full fixed bottom-0 bg-yellow-500 lg:hidden z-40 text-gray-800 shadow-md overflow-x-hidden">
       <nav>
-        <div className="flex justify-between">
+        <div className="w-full flex justify-between items-center ">
           {navLinks.map((link) => (
-            <div key={link.title}>
+            <div key={link.title} className="w-full">
               <Link
                 href={link.url}
-                className={`flex flex-col items-center text-sm py-3 px-10 duration-300 max-sm:px-3 ${
+                className={`w-full flex flex-col items-center text-sm py-3 duration-300  ${
                   activeLink === link.url ? "active-mobile" : ""
                 }`}
               >

@@ -26,7 +26,7 @@ const AboutMe = () => {
       id="about"
       className="section-wrapper w-[100%] flex flex-col justify-center items-center"
     >
-      <motion.div className="mt-5 w-[60%] p-8rounded-md max-md:w-[90%] flex gap-10 justify-center items-start max-xl:flex-col">
+      <motion.div className="mt-2 w-[70%] p-8 rounded-md max-md:w-[95%] flex gap-10 justify-center items-start max-xl:flex-col">
         <div className="w-full text-center" ref={elementRef}>
           <motion.h2
             initial={{ opacity: 0, y: "-100px" }}
@@ -34,7 +34,7 @@ const AboutMe = () => {
               opacity: isVisible ? 1 : 0,
               y: isVisible ? 0 : "100px",
             }}
-            transition={{ delay: 0.5, duration: 0.3 }}
+            transition={{ delay: 0, duration: 0.3 }}
             className="text-yellow-500 text-[70px] max-md:text-[40px] max-sm:text-[40px]"
           >
             Welcome to my Portfolio!
@@ -46,8 +46,8 @@ const AboutMe = () => {
             opacity: isVisible ? 1 : 0,
             x: isVisible ? 0 : "100px",
           }}
-          transition={{ delay: 0.7, duration: 0.5 }}
-          className="text-left mx-5 pl-10 border-l-2 border-gray-700 max-xl:border-none max-xl:pl-0"
+          transition={{ delay: 0.3, duration: 0.5 }}
+          className="text-left mx-2 pl-10 border-l-2 border-gray-700 max-xl:border-none max-xl:pl-0"
         >
           <p className="mb-5 p-text text-justify">
             I'm a passionate front-end web developer trained at Village88, a
@@ -70,16 +70,6 @@ const AboutMe = () => {
             deliver cutting-edge solutions.
           </p>
         </motion.div>
-
-        {/* <div className="rounded-full w-[150px] h-[150px] overflow-hidden border-yellow-500 border-4 absolute top-[-40px] right-10">
-          <Image
-            src="/assets/aboutme-photo.jpg"
-            alt="Gem Solis Photo"
-            width={150}
-            height={150}
-            className="object-contain"
-          />
-        </div> */}
       </motion.div>
     </div>
   );

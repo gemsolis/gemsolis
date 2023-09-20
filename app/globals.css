@@ -51,7 +51,7 @@ label {
 }
 
 .p-text {
-  @apply max-sm:text-[14px] max-md:text-[16px] max-lg:text-[18px] max-xl:text-[20px] xl:text-[24px];
+  @apply max-sm:text-[16px] max-md:text-[16px] max-lg:text-[18px] max-xl:text-[20px] xl:text-[24px];
 }
 
 .custom-btn {
@@ -83,11 +83,11 @@ label {
 }
 
 .active-mobile {
-  @apply border-t-4 border-gray-800;
+  @apply border-t-4 border-gray-800  text-gray-800;
 }
 
 .section-wrapper {
-  @apply bg-opacity-75 backdrop-filter backdrop-blur-lg w-full px-20 pt-[150px] pb-[150px] max-lg:px-10;
+  @apply bg-opacity-75 backdrop-filter backdrop-blur-lg w-full px-20 pt-[150px] pb-[150px] max-lg:px-6;
 }
 
 .bg-rounded {

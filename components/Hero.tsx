@@ -46,7 +46,7 @@ const Hero = () => {
         className="flex justify-center gap-5 mt-5"
       >
         <Link
-          href="https://drive.google.com/file/d/1O6ijP_LkJLV66g9lAwkrJ-ww-inB8Hxh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Z_fQ4cjhSjEnSz0EuEBY6xITYVzrXpfk/view?usp=sharing"
           target="_blank"
         >
           <CustomButton
