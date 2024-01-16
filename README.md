@@ -1,4 +1,4 @@
-👋 Hello there! I'm [Your Name], a passionate frontend developer with a focus on crafting delightful user experiences using React.js and Next.js. My journey in the world of web development has been fueled by a love for creating dynamic and responsive interfaces that bring ideas to life.
+👋 Hello there! I'm Gem Solis, a passionate frontend developer with a focus on crafting delightful user experiences using React.js and Next.js. My journey in the world of web development has been fueled by a love for creating dynamic and responsive interfaces that bring ideas to life.
 
 🚀 What I Bring to the Table:
 React.js Mastery: With a solid foundation in React.js, I thrive on building modular and reusable components to create scalable applications. Whether it's state management, hooks, or context, I've got it covered.
